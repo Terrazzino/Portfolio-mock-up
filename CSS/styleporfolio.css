@@ -1,0 +1,34 @@
+/*Edicion general de la cabecera*/
+h1{
+    text-align: center;
+}
+
+
+
+/*Edicion Skill*/
+.skills{
+    text-align: center;
+}
+.html{
+    width: 10em;
+    margin-right: 5em;
+}
+.css{
+    width:10em;
+    margin-left: 5em;
+}
+
+
+
+
+
+/*Edicion de la seccion de Contactos*/
+.contacto-IG{
+    width: 5em;
+}
+.contacto-IN{
+    width:5em;
+}
+.contacto-WSP{
+    width:5.1em;
+}
