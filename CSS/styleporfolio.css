@@ -1,34 +1,123 @@
+
 /*Edicion general de la cabecera*/
 h1{
     text-align: center;
+    font-size: 4em;
+    margin-top: 2.7%;
+    margin-bottom:0;
+    font-family: 'Bungee', cursive;;
+}
+/*tamaño del cargo jerarquico que ocupo*/
+.jerarquia{
+    display: inline;
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin-left: 49%;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    font-family: 'Major Mono Display', monospace;
+    text-shadow: 2px 2px 2px #D11A4E; 
+    background-color: #000000;
 }
 
+h2{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ h3{
+    
+    padding-right: 5em;
+ }
+
+/*Edicion del Nav*/
+
+.pagina_actual{
+    display: inline;
+    text-shadow: 2px 2px 10px #D11A4E;   
+    font-family: 'Cabin Sketch', cursive;
+}
+.nav_indice{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+nav{
+    text-align: center;
+    font-size: 1.4em;
+    padding-top: 2%;
+    margin-bottom: 0;
+    font-family: 'Cabin Sketch', cursive;
+}
 
 
 /*Edicion Skill*/
 .skills{
     text-align: center;
+    padding-top: 0;
 }
 .html{
-    width: 10em;
-    margin-right: 5em;
+    width: 25em;
+    margin-right: 10em;
+    padding-top: 2em;
+    padding-bottom: 0;
 }
 .css{
-    width:10em;
-    margin-left: 5em;
+    width:25em;
+    margin-left: 10em;
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+
+/*Edicion de mi descripcion personal en la pagino "quien soy?"*/
+
+.mi_descripcion{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 0.6%;
+    font-size: 1.5em;
+    font-family: 'Bubbler One', sans-serif;
+}
+.tamaño_yosoy{
+    font-size: 1.7em;
+    padding-bottom: 0.5em;
 }
 
 
+/*Edicion de Trabajos*/
 
+.centrar_imagen{
+    text-align: center;
+    margin-top: 2%;
+}
 
 
 /*Edicion de la seccion de Contactos*/
-.contacto-IG{
-    width: 5em;
+
+.enlaces_centrados_contactos{
+    text-align: center;
+}
+.contacto-Gmail{
+    width: 2em;
+    margin:5em 5em 5em 5em;
+    
 }
 .contacto-IN{
-    width:5em;
+    width:2em;
+    margin:5em 5em 5em 5em;
 }
 .contacto-WSP{
-    width:5.1em;
+    width:2.1em;
+    margin:5em 5em 5em 5em;
+}
+
+section h2{
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+section.skills h2{
+    margin-top: 0;
+    font-size: 2.5em;
 }

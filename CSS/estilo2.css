@@ -1,0 +1,110 @@
+h1{
+    font-family: 'Bungee', cursive; /*TIPOGRAFIA DEL NOMBRE*/
+    text-align: center; /*CENTRADO DEL TEXTO*/
+    font-size: 5em; /*TAMAÑO DE LA LETRA*/
+    padding: 0.2em 0.2em 0.2em 0.2em; /*DISTANCIA QUE TENDRA DE LOS MARGENES DE SU CONTENEDOR*/
+    background-color: rgba(240, 109, 34, 0.692);
+}
+
+h2{
+    font-family: 'Major Mono Display', monospace;/*TIPOGRAFIA DE MI JERARQUIA*/
+    font-size: 1em;/*TAMAÑO DE LA LETRA*/
+    position: absolute;
+    left: 83%;
+    top: 1%;
+    background-color:#000000;
+    color: white;
+}
+
+h3{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    text-shadow: 2px 2px 10px #c5760096;
+    margin: 2px 2px 2px 2px;
+    position: absolute;
+    top: 5em;
+    left: 45%;
+}
+
+nav p{
+    display: inline;
+    text-shadow: 2px 2px 10px #e6a959c9; 
+}
+
+nav{
+    font-size: 2em;
+}
+
+.inicio{
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    left: 27%;
+    top: 18%;
+}
+.trabajos{
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    left: 45%;
+    top: 18%;
+}
+.quiensoy{
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    left: 65%;
+    top: 18%;
+}
+
+.html{
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    height: 30em;
+}
+.css{
+    position: absolute;
+    right: 15%; 
+    top: 35%;
+    height: 30em;
+}
+
+/*                  UNICAMENTE DOCUMENTO DE "TRABAJOS.HTML"                                   */
+
+#proximamente{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 10em;
+    text-shadow: 2px 2px 10px #c57600b7;
+    position: absolute;
+    top: 2em;
+    left: 1.7em;
+}
+
+/*                 UNICAMENTE SECCION DE CONTACTOS                                             */
+
+.Gmail{
+    width: 2em;
+    position: absolute;
+    right: 9%;
+    top: 9.8%;
+}
+.IN{
+    width: 2em;
+    position: absolute;
+    right: 5%;
+    top: 9%;
+}
+.WSP{
+    width: 2em;
+    position: absolute;
+    right: 1%;
+    top: 9%;
+}
+
+/*             UNICAMENTE LA SECCION DE MI DESCRIPCION                 */
+
+.descripcion{
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: 8em;
+}
