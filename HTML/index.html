@@ -1,78 +1,122 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Meta para poder trabajar en Responsive Designe y que se adapte a otros dispositivos-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Terrazzino Franco</title>
-    
-    <link rel="stylesheet" href="../CSS/estilo2.css">
+
+    <!--LINK AL DOCUMENTO CSS CORRESPONDIENTE A ESTE PROYECTO-->
+    <link rel="stylesheet" href="../CSS/EstiloProtfolio.css">
+    <!--LINK AL DOCUMENTO CSS NORMALIZE PARA NORMALIZAR Y ESTANDARIZAR TODOS MIS PROYECTOS-->
     <link rel="stylesheet" href="../../normalize.css">
+    
     <!--TIPOGRAFIAS-->
+    <!-- -------------------------------------------------------------------------------------------------------- -->
     <!--titulos h1-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
-    <!--subtitulo-->
+    
+    <!--H2 tipografia-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <!--titulos H3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">    
+
     <!--titulos cada tema-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
-    <!--pagina actual-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
-    <!--otras paginas(enlaces)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+
     <!--textos de parrafos-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <!--Tipografia de Nav de Resposive Design-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+   
+    <!--Link para Iconos de Font Awesome-->
+    <script src="https://kit.fontawesome.com/6944a9d57d.js" crossorigin="anonymous"></script>
+   
+    <!--Meta Viewport para poder trabajar com Responsive Design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 
-
-
-
-
-
-
-
-
 <body>
+
+
     <header>
+        <!--Puesto jerarquico de programador. Subtitulo de la pagina principal-->
         <h1>
-            Terrazzino Franco
+            Junior Front end Developer   
         </h1>
+        <!--Mi Nombre y Apellido-->
         <h2>
-            junior front end developer 
+            Terrazzino Franco  
+        
+            <!--ENLACES DE CONTACTO-->
+            <a href="mailto:terrazzinofranco1996@gmail.com" target="_blank"> <img src="../Multimedia/Gmail.png" alt="Gmail" class="Gmail"> </a>
+            <a href="https://www.linkedin.com/in/franco-terrazzino-1236941b1" target="_blank"> <img src="../Multimedia/LinkedIn.png" alt="IN" class="IN"> </a>
+            <a href="https://wa.me/543416045740" target="_blank"> <img src="../Multimedia/WhatsUp.png" alt="WhatsUp" class="WSP"> </a>
+    
         </h2>
     </header>
-    <nav>
-        <p class="inicio" >Inicio</p>
-        <a class="trabajos" href="trabajos.html">Trabajos</a>
-        <a class="quiensoy" href="yo.html">Quién Soy?</a>    
+
+
+    <nav>        
+        <!--Navegadores de mi sitio Web-->
+        <div class="Navegacion_en_pagina">
+        
+            <a class="fas fa-home redirecciones inicio pagina_actual" href="index.html" alt="Inicio"></a>
+            <a class="fas fa-briefcase redirecciones trabajos" href="trabajos.html"></a>
+            <a class="fas fa-street-view redirecciones yo" href="yo.html"></a>
+              
+        </div>
+
+        <div class="Navegacion_en_pagina_RD">
+
+            <a class="redirecciones inicio pagina_actual" href="index.html">Inicio</a>
+            <a class="redirecciones trabajos" href="trabajos.html">Trabajos</a>
+            <a class="redirecciones yo" href="yo.html">Sobre Mi</a>   
+        </div>
     </nav>
+
+
     <article>
-        <section class="skills">
+        <!--Imagenes de los lenguajes que conozco (SKILLS)  :HTML Y CSS-->
+        <section>
             <h3>Skills</h3>
+        </section>
+        <section class="skills">
             <img src="../Multimedia/html.png" alt="HTML" class="html">
             <img src="../Multimedia/css.png" alt="CSS" class="css">
         </section>
     </article>
-    <aside>
 
-    </aside>
     <footer>
-        <!--ENLACES DE CONTACTO-->
-            <a href="mailto:terrazzinofranco1996@gmail.com" target="_blank"> <img src="../Multimedia/Gmail.png" alt="Gmail" class="Gmail"> </a>
-            <a href="https://www.linkedin.com/in/franco-terrazzino-1236941b1" target="_blank"> <img src="../Multimedia/LinkedIn.png" alt="IN" class="IN"> </a>
-            <a href="https://wa.me/543416045740" target="_blank"> <img src="../Multimedia/WhatsUp.png" alt="WhatsUp" class="WSP"> </a>
+        <h3>Contactos</h3>
+        <a href="mailto:terrazzinofranco1996@gmail.com" target="_blank" class="mail">Mail</a>
+        <a href="https://www.linkedin.com/in/franco-terrazzino-1236941b1" target="_blank" class="linkedin">LinkedIN</a>
+        <a href="https://wa.me/543416045740" target="_blank" class="whatsapp">WhatsApp</a>
     </footer>
+
+
 </body>
+
+    
 </html>
