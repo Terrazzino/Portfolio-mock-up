@@ -58,23 +58,23 @@
 
 
 <body>
-
+    <script src="../JS/codigo.js"></script>
 
     <header>
-        <!--Puesto jerarquico de programador. Subtitulo de la pagina principal-->
-        <h1>
-            Junior Front end Developer   
-        </h1>
-        <!--Mi Nombre y Apellido-->
-        <h2>
-            Terrazzino Franco  
-        
-            <!--ENLACES DE CONTACTO-->
-            <a href="mailto:terrazzinofranco1996@gmail.com" target="_blank"> <img src="../Multimedia/Gmail.png" alt="Gmail" class="Gmail"> </a>
-            <a href="https://www.linkedin.com/in/franco-terrazzino-1236941b1" target="_blank"> <img src="../Multimedia/LinkedIn.png" alt="IN" class="IN"> </a>
-            <a href="https://wa.me/543416045740" target="_blank"> <img src="../Multimedia/WhatsUp.png" alt="WhatsUp" class="WSP"> </a>
-    
-        </h2>
+
+        <div class="header">
+            <div class="header_items h1">
+                <h1>Terrazzino Franco</h1>
+                <div class="h5"><h5>Junior Front End Developer</h5></div> 
+            </div>          
+            <div class="header_items h2"><h2>Inicio</h2></div>
+            <div class="header_items contactos">
+                <a href="mailto:terrazzinofranco1996@gmail.com" target="_blank" class="fas fa-envelope-square Gmail"></a>
+                <a href="https://www.linkedin.com/in/franco-terrazzino-1236941b1" target="_blank" class="fab fa-linkedin IN"></a>
+                <a href="https://wa.me/543416045740" target="_blank" class="fab fa-whatsapp-square WSP"></a>
+            </div>
+            
+        </div>
     </header>
 
 
@@ -84,38 +84,44 @@
         
             <a class="fas fa-home redirecciones inicio pagina_actual" href="index.html" alt="Inicio"></a>
             <a class="fas fa-briefcase redirecciones trabajos" href="trabajos.html"></a>
-            <a class="fas fa-street-view redirecciones yo" href="yo.html"></a>
               
         </div>
-
-        <div class="Navegacion_en_pagina_RD">
-
-            <a class="redirecciones inicio pagina_actual" href="index.html">Inicio</a>
-            <a class="redirecciones trabajos" href="trabajos.html">Trabajos</a>
-            <a class="redirecciones yo" href="yo.html">Sobre Mi</a>   
-        </div>
     </nav>
+    <div class="grid_descripcion_skills">
+        <article class="items_grid_descripcion">
+            <!--Titulo del contenido-->
+            <section>
+                <h3 class="yo_soy">Yo soy...</h3><br>
+            </section>
+            <!--Contenido descriptivo sobre mi persona-->
+            <section class="descripcion">
+                <p>Un músico aficionado, compositor, guitarrista, cantante y productor artístico, mi cable a tierra durante años lo hallé en la música
+                y todas sus ramas. En la guitarra y la expresión que da la herramienta de componer. Grabe un disco con una banda y hoy solo me dedico
+                desde mí <b>Home Studio</b> a un proyecto solista en el cuál trabajamos en equipo con un compañero para producirlo y así
+                llevar nuestro trabajo a su mayor calidad.
+                Trabajo en una cervecería principalmente de cocinero, aunque me encargo de otras ramas como pueden ser, embotellado, embarrilado,
+                carbonatación, entre otras cosas. Soy peluquero en una peluquería canina y algunas veces hago trabajos de mantenimiento eléctrico y mecánico en hogares
+                con mi título secundario de <b>Técnico Electromecánico</b> (recibido del colegio <b></b>San José).
+                <br>
+                <u>Eh tenido la oportunidad de ejercer con mi título en dos empresas</u>:
+                <br>
+                Una empresa de refrigeración industrial donde hacíamos cámaras de frío, tanto montaje como mantenimiento y
+                en una empresa que se dedicaba al mantenimiento e instalación de ascensores.
+                Descubrí la programación en pandemia, comencé tomando una especie de revancha con materias del secundario que no entendía solo por pasar el tiempo
+                y terminé encontrando una pasión parecida a la música, algo en lo que encontraba satisfacción, y ganas de aprender.
+                Hoy sigo capacitándome y descubrí después de tantas experiencias y tanto ensayar mundos laborales, que la programación es hoy para mi una <b>vocación</b>.</p>
+            </section>
+        </article>
 
-
-    <article>
-        <!--Imagenes de los lenguajes que conozco (SKILLS)  :HTML Y CSS-->
-        <section>
-            <h3>Skills</h3>
-        </section>
-        <section class="skills">
-            <img src="../Multimedia/html.png" alt="HTML" class="html">
-            <img src="../Multimedia/css.png" alt="CSS" class="css">
-        </section>
-    </article>
-
-    <footer>
-        <h3>Contactos</h3>
-        <a href="mailto:terrazzinofranco1996@gmail.com" target="_blank" class="mail">Mail</a>
-        <a href="https://www.linkedin.com/in/franco-terrazzino-1236941b1" target="_blank" class="linkedin">LinkedIN</a>
-        <a href="https://wa.me/543416045740" target="_blank" class="whatsapp">WhatsApp</a>
-    </footer>
-
-
+        <aside class="items_grid_skills">  
+            <!--Imagenes de los lenguajes que conozco (SKILLS)  :HTML Y CSS-->
+                <h3 class="skills">Skills</h3>
+            <div class="img_skills">
+                <img src="../Multimedia/html.png" alt="HTML" class="html"> 
+                <img src="../Multimedia/css.png" alt="CSS" class="css">
+            </div>
+        </aside>
+    </div>  
 </body>
 
     

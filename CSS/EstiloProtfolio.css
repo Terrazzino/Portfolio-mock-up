@@ -1,254 +1,169 @@
-/*Estilos GENERALES*/
-
-                                                /*Encabezado, Titulo de cada ventana y Nombre de autor*/
-*{
-    background: #ddd7b3;
-    margin: 0;
-}
-
-h1{
-    /*REFERIDO AL CONTENEDOR*/
-    margin: 0;
-    width: 100% ; /*Damos ancho al contenedor*/
-    height: 0.3em; /*Damos alto al contenedor*/
+body{
     background: #000000;
-    /*REFERIDO AL CONTENIDO*/
-    text-align: center; /*Centramos el contenedor*/
-    padding-bottom:2em ;
-    font-size: 3.2em; /*Damos tamaño a la letra*/
-    color: #ffffff;
-    font-family: 'Bungee', cursive; /*TIPOGRAFIA DEL NOMBRE*/
 }
-h2{
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    height: 14.6em;
+    background-color: rgb(0, 0, 0);
+}
+
+.header .h1{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 15px 0;
+    color: #c97e1c;
+}
+
+.h1{
+    align-self: center;
+}
+
+.h1 h1{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 8em;
     font-family: 'Satisfy', cursive;
-    margin:0;
-    font-size: 2em;
-    color: #ffffff;
-    background: #000000;
-    text-align: center;
-    position: relative;
 }
+
+.h1 .h5{
+    align-self: flex-end;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.h2{
+    align-self: flex-start;
+    color: #f5e9da;
+    letter-spacing: 10px;
+    margin-left: 10px;
+    text-shadow: -2px 8px 15px #ffffff98;
+    font-family: 'Bungee', cursive;
+}
+.contactos{
+    align-self: flex-end;
+    margin-right: 5px;
+    transform:translateY(-31px);
+}
+
+
+.Gmail, .IN, .WSP{
+    width: 1.2em;
+    padding: 5px;
+    margin: 0 10px;
+    font-size:2em;
+    text-align: center;
+    color: #c97e1c;
+    text-decoration: none;
+}
+
+.Navegacion_en_pagina{
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8687850140056023) 0%, rgba(201,126,28,1) 22%, rgba(91,56,7,1) 80%);
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid black;
+    height: 5.5em;
+}
+
+.redirecciones{
+    font-size: 5em;
+    color: black;
+    text-decoration: none;
+}
+
+
 h3{
     font-family: 'Skranji', cursive;
-    font-size: 4em;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding-top: 0.2em;
-    background: #a36d09;
-    color: #ffffff;
+    color: #f5e9da;
+    font-size: 3em;
+    letter-spacing:10px;
+    text-align:center;
+}
 
+.yo_soy{
+    background: black;
+    border-top: solid 2px #f5e9dac2;
+    border-left: solid 2px #f5e9dac2;
+    border-right: solid 2px #f5e9dac2;
+}
+.skills{
+    letter-spacing:10px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1em;
+    background: #000000;
+    border-top: solid 2px #f5e9dac2;
+    border-right: solid 2px #f5e9dac2;
+    border-left: solid 2px #f5e9dac2;
+}
+
+.img_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.html, .css{
+    width: 18em;
+    padding: 5px;
 }
 
 /*Navegadores*/
 /*CONTACTOS*/
-.Gmail{
-    width: 1em;
-    position: absolute;
-    right: 4.5em;
-    bottom: 0.5em;
-    transition: 0.5s;
-    background: #000000;
-}
-.IN{
-    width: 1em;
-    position: absolute;
-    right: 2.5em;
-    bottom: 0.5em;
-    transition: 0.5s;
-    background: #000000;
-}
-.WSP{
-    width: 1em;
-    position: absolute;
-    right: 0.5em;
-    bottom: 0.5em;
-    transition: 0.5s;
-    background: #000000;
-}
-.Gmail:hover{
-    width: 2em;
-}
-.IN:hover{
-    width: 2em;
-}
-.WSP:hover{
-    width: 2em;
-}
-
-footer{
-    display: none;
-}
-
-                                                /*INICIO - PROYECTOS - SOBRE MI*/
-
-
-.Navegacion_en_pagina{
-    background-color: #f8f0d9;
-    font-size: 4em;
-    display: block;
-    text-align: center;
-}
-
-.Navegacion_en_pagina_RD{
-    display: none;
-}
-
-.redirecciones{
-    margin-left: 1em;
-    margin-right: 1em;
-    background: #f8f0d9;
-}
-
-.redirecciones:link{
-    color:#000000;
-}
-.redirecciones:visited{
-    color: #853100;
-}
-.redirecciones:hover{
-    -webkit-text-stroke: 0.4px #e8eb58;
-}
-
-.pagina_actual{
-    -webkit-text-stroke: 2.5px #fff59b;
-}
-
-.inicio{
-    text-align: center;
-    background: #f8f0d9;
-}
-.trabajos{
-    text-align: center;
-    background: #f8f0d9;
-}
-.yo{
-    text-align: center;
-    background: #f8f0d9;
-}
-
-/*     INDEX       */
-
-.skills{
-    text-align: center;
-    margin: 0em;
-}
-.html{
-margin: 2em 5em 0em;
-width: 27em;
-}
-.css{
-margin: 2em 5em 0em;
-width: 27em;
-}
 
 
 /*       TRABAJOS          */
 
 .proximamente{
     font-family: 'Caesar Dressing', cursive;
-    width: 100%;
-    margin-top: 0;
-    padding-top: 0.3em;
-    text-align: center;
-    font-size: 13em;
-    -webkit-text-stroke: 10px #b97d0e67;
 }
 
 
 /*       DESCRIPCION MIA       */
 
-.descripcion p{
+.grid_descripcion_skills{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100%;
+    padding: 10px;
+}
 
-    font-size: 1.5em;
-    font-family: 'Indie Flower', cursive;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 1em;
+.items_grid_descripcion, .items_grid_skills{
+    background: #f5e9dac2;
 }
-.descripcion::first-letter{
-    font-size: 1.8em;
+.items_grid_descripcion{
+    border-right: none;
 }
+.items_grid_skills{
+    border-left: none;
+}
+
+
+.descripcion{
+    text-align: left;
+    font-size: 1.3em;
+    width: 40em;
+    padding: 5px;
+}
+
+
+
+
+.proximamente{
+    color: #f5e9da;
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 15em;
+}
+
+
+
+
 
 @media only screen and (max-width:900px){
-    h1{
-        font-size: 1em;
-    }
-    h2{
-        font-size: 1em;
-    }
-    h3{
-        font-size: 1.3em;
-    }
-    .html{
-        display: block;
-        width: 5em;
-        padding: 1em 0 0 0;
-        margin: auto;
-    }
-    .css{
-        display: block;
-        width: 5em;
-        padding: 1em 0 0 0;
-        margin: auto;
-    }
-    .Navegacion_en_pagina{
-        display: none;
-    }
-    .Navegacion_en_pagina_RD{
-        display:inline;
-    }
-    .pagina_actual{
-        -webkit-text-stroke: 1px #cc990c;
-    }
-    .inicio{
-        display: block;
-        text-decoration: none;
-        font-family: 'Shadows Into Light', cursive;
-        margin: 0;
-        font-size: 1.3em;
-    }
-    .trabajos{
-        display: block;
-        text-decoration: none;
-        font-family: 'Shadows Into Light', cursive;
-        margin: 0;
-        font-size: 1.3em;
-    }
-    .yo{
-        display: block;
-        text-decoration: none;
-        font-family: 'Shadows Into Light', cursive;
-        margin: 0;
-        font-size: 1.3em;
-    }
-
-    .proximamente{
-        font-size: 2em;
-    }
-
-    .descripcion p{
-        font-size: 1em;
-    }
-    .Gmail, .IN, .WSP{
-        display: none;
-    }
-    footer{
-        display: block;
-        font-family: 'Shadows Into Light', cursive;
-    }
-
-    footer a{
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        font-size: 1.3em;
-        color: #8b6600;
-    }
-    .mail{
-        margin-top: 0.5em;
-    }
-    .whatsapp{
-        margin-bottom: 1em;
-    }
+    
 }
